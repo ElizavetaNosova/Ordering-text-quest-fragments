@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-import lxml
+import xml
 import networkx as nx
 
-def is_tech_article(article:lxml.etree._Element):
+def is_tech_article(article:xml.etree._Element):
     '''
     In the xml files we use some items with tag 'article' contain data 
     and some - scripts. The function is used to filter the first type of items
